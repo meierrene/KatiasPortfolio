@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bs-body-color: #2c2c2c;
+  --bs-body-bg: #f6e9ed;
+  --bs-body-font-family: "Roboto", serif;
+  --bs-accent-color: #a61e4d; /* Bordeaux */
+  --bs-secondary-text: #595959;
+}
+
+html {
+  font-size: 67.5%; /* Increased base font size for better scaling */
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+}
+
+hr {
+  margin: 3.6rem 1.8rem 9.8rem;
+  border: 0;
+  border-top: 0.5px solid var(--bs-secondary-text);
+  z-index: 0;
+}
+
+input,
+textarea {
+  border: none;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.6rem rgba(89, 89, 89, 0.7);
+}
+
+.h1-title {
+  font-size: 3.6rem; /* Slightly larger */
+  color: var(--bs-body-color);
+}
+
+.h2-title {
+  font-size: 4rem;
+  color: var(--bs-secondary-text);
+}
+
+/******************************************************************************/
+/* BELOW 480px  */
+/******************************************************************************/
+@media (max-width: 30em) {
+  .h1-title {
+    font-size: 2.4rem;
+  }
+
+  .h2-title {
+    font-size: 2.2rem;
+  }
+}
