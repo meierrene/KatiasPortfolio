@@ -49,6 +49,8 @@ export const testimonialsData = [
   },
 ];
 
+export const ctaEmailData = "contato@katiadiniz.com.br";
+
 export const whatsappData = {
   number: "5519996096183",
   message: "Hi+K%C3%A1tia%21%0D%0AI+found+you+at+your+portfolio.",

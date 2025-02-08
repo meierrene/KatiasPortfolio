@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav-container">
       <a className="navbar-brand logo-name" href="#">
-        <img className="logo" src="logo-header.svg" />
+        <img className="logo" src="logo.svg" />
         <span>Kátia Diniz Meier</span>
       </a>
       <button

@@ -8,7 +8,7 @@ function Hero() {
           Welcome to <span className="highlight">Kátia Diniz Meier&apos;s</span>{" "}
           Portfolio
         </h1>
-        <p className="hero-tagline">
+        <p className="description">
           Transforming smiles with excellence in Endodontics.
         </p>
       </div>
