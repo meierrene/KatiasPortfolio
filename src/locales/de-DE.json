@@ -15,7 +15,7 @@
       {
         "title": "Leidenschaft für Präzision in der Endodontie",
         "description": "Mit über zwei Jahrzehnten Erfahrung in der Zahnmedizin bin ich auf Endodontie spezialisiert und kombiniere fortschrittliche Techniken mit einer patientenzentrierten Herangehensweise. Ich habe 2001 meinen Abschluss an der PUC Campinas gemacht und meine Fachkenntnisse durch eine Spezialisierung in Endodontie an der São Leopoldo Mandic (2007) vertieft. Derzeit absolviere ich meinen Master in Endodontie (2024-2026) an derselben Institution, um meine Leidenschaft für lebenslanges Lernen und zahnmedizinische Innovationen weiter zu fördern.",
-        "image": "./img/hero.jpg"
+        "image": "./img/desk.jpg"
       },
       {
         "title": "Fortschrittliche Techniken & Individuelle Betreuung",
@@ -33,16 +33,16 @@
     "title": "Was Unsere Patienten Sagen",
     "testimonials": [
       {
-        "name": "John Doe",
+        "name": "Geraldo Tuvani",
         "message": "Dr. Kátia hat eine hervorragende Betreuung geboten! Ich bin mit den Ergebnissen sehr zufrieden und würde sie jedem empfehlen."
       },
       {
-        "name": "Maria Silva",
+        "name": "Maria da Silva",
         "message": "Ich war immer nervös bei Zahnarztbesuchen, aber Dr. Kátia hat mir die gesamte Behandlung sehr angenehm gemacht."
       },
       {
-        "name": "James Smith",
-        "message": "Die beste endodontische Behandlung, die ich je hatte! Vielen Dank für Ihre Professionalität und Fürsorge."
+        "name": "Eliana Marciano",
+        "message": "Die beste Wurzelkanalbehandlung, die ich je hatte! Vielen Dank für Ihre Hingabe und Professionalität."
       }
     ]
   },

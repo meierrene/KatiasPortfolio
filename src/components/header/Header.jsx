@@ -5,10 +5,18 @@ import { useTranslation } from "react-i18next";
 
 const Header = () => {
   const { language, changeLanguage } = useLanguage();
+
   const { t } = useTranslation();
 
   const selectedLanguage = languages.find((l) => l.title === language);
   const sections = t("header", { returnObjects: true });
+
+  const closeNavbar = () => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    if (navbarCollapse.classList.contains("show")) {
+      navbarCollapse.classList.remove("show");
+    }
+  };
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav-container">
@@ -31,7 +39,7 @@ const Header = () => {
         <ul className="navbar-nav ms-auto">
           {sections.map((s) => (
             <li key={s.title} className="nav-item">
-              <a className="nav-link" href={"#" + s.ref}>
+              <a className="nav-link" href={"#" + s.ref} onClick={closeNavbar}>
                 {s.title}
               </a>
             </li>
@@ -54,7 +62,10 @@ const Header = () => {
                 <li key={l.title}>
                   <button
                     className="dropdown-item"
-                    onClick={() => changeLanguage(l.title)}
+                    onClick={() => {
+                      changeLanguage(l.title);
+                      closeNavbar();
+                    }}
                   >
                     <img src={l.flag} alt={l.title} />
                   </button>

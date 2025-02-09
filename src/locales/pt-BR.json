@@ -15,7 +15,7 @@
       {
         "title": "Paixão pela Precisão em Endodontia",
         "description": "Com mais de duas décadas dedicadas à odontologia, sou especialista em Endodontia, combinando técnicas avançadas com uma abordagem focada no paciente. Graduei-me na PUC Campinas em 2001, aprimorando minha expertise com especialização em Endodontia na São Leopoldo Mandic (2007). Atualmente, estou cursando o Mestrado em Endodontia (2024-2026) na mesma instituição, reforçando meu compromisso com o aprendizado contínuo e os avanços na odontologia.",
-        "image": "./img/hero.jpg"
+        "image": "./img/desk.jpg"
       },
       {
         "title": "Técnicas Avançadas & Atendimento Personalizado",
@@ -33,16 +33,16 @@
     "title": "O que Nossos Pacientes Dizem",
     "testimonials": [
       {
-        "name": "João Silva",
+        "name": "Geraldo Tuvani",
         "message": "A Dra. Kátia me atendeu com muita excelência! Estou muito feliz com os resultados e recomendaria para qualquer pessoa."
       },
       {
-        "name": "Maria Santos",
+        "name": "Maria da Silva",
         "message": "Sempre tive receio de visitas ao dentista, mas a Dra. Kátia tornou todo o processo muito confortável e tranquilo."
       },
       {
-        "name": "Carlos Pereira",
-        "message": "O melhor tratamento endodôntico que já tive! Muito obrigado pela sua dedicação e profissionalismo."
+        "name": "Eliana Marciano",
+        "message": "O melhor tratamento de canal que já tive! Muito obrigado pela sua dedicação e profissionalismo."
       }
     ]
   },
