@@ -1,0 +1,57 @@
+{
+  "header": [
+    { "title": "Über mich", "ref": "about" },
+    { "title": "Erfahrungsberichte", "ref": "testimonials" },
+    { "title": "Kontakt", "ref": "contact" }
+  ],
+  "hero": {
+    "title-part1": "Willkommen auf",
+    "title-part2": ", meiner persönlichen Website",
+    "description": "Perfektionierte Endodontie für ein strahlendes Lächeln."
+  },
+  "aboutMe": {
+    "title": "Über Mich",
+    "aboutMe": [
+      {
+        "title": "Leidenschaft für Präzision in der Endodontie",
+        "description": "Mit über zwei Jahrzehnten Erfahrung in der Zahnmedizin bin ich auf Endodontie spezialisiert und kombiniere fortschrittliche Techniken mit einer patientenzentrierten Herangehensweise. Ich habe 2001 meinen Abschluss an der PUC Campinas gemacht und meine Fachkenntnisse durch eine Spezialisierung in Endodontie an der São Leopoldo Mandic (2007) vertieft. Derzeit absolviere ich meinen Master in Endodontie (2024-2026) an derselben Institution, um meine Leidenschaft für lebenslanges Lernen und zahnmedizinische Innovationen weiter zu fördern.",
+        "image": "./img/hero.jpg"
+      },
+      {
+        "title": "Fortschrittliche Techniken & Individuelle Betreuung",
+        "description": "In meiner Praxis setze ich modernste Technologien wie Ultraschall, Operationsmikroskope und foraminale Lokalisatoren ein, um höchste Präzision bei Wurzelkanalbehandlungen zu gewährleisten. Ob manuelle, rotierende oder reziproke Techniken – ich passe jede Behandlung individuell an, um den größtmöglichen Komfort und langfristige Mundgesundheit meiner Patienten sicherzustellen. Ich glaube an einen menschlichen und einfühlsamen Ansatz, bei dem Vertrauen und Empathie im Mittelpunkt stehen.",
+        "image": "./img/hero.jpg"
+      },
+      {
+        "title": "Natur, Balance & Lebenslange Erkundung",
+        "description": "Abseits meines Berufs finde ich meine Inspiration in der Natur und einem achtsamen Lebensstil. Ich genieße Wanderungen durch ruhige Landschaften, gute Bücher und Aktivitäten, die zur körperlichen und geistigen Entspannung beitragen. Reisen mit meinem Mann gehört zu meinen größten Leidenschaften – es ermöglicht mir, neue Kulturen zu entdecken und die Schönheit der Welt zu schätzen.",
+        "image": "./img/nature.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Was Unsere Patienten Sagen",
+    "testimonials": [
+      {
+        "name": "John Doe",
+        "message": "Dr. Kátia hat eine hervorragende Betreuung geboten! Ich bin mit den Ergebnissen sehr zufrieden und würde sie jedem empfehlen."
+      },
+      {
+        "name": "Maria Silva",
+        "message": "Ich war immer nervös bei Zahnarztbesuchen, aber Dr. Kátia hat mir die gesamte Behandlung sehr angenehm gemacht."
+      },
+      {
+        "name": "James Smith",
+        "message": "Die beste endodontische Behandlung, die ich je hatte! Vielen Dank für Ihre Professionalität und Fürsorge."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, Ihr Lächeln zu verwandeln?",
+    "description": "Kontaktieren Sie Dr. Kátia noch heute, um einen Termin zu vereinbaren oder mehr über ihre Dienstleistungen zu erfahren.",
+    "buttonContact": "Kontaktieren Sie mich",
+    "subjectPlaceholder": "Betreff",
+    "textPlaceholder": "Schreiben Sie hier Ihre Nachricht..."
+  },
+  "footer": "Urheberrecht © {{year}} von René Meier"
+}

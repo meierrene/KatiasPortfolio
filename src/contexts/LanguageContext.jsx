@@ -1,53 +1,40 @@
-/* eslint-disable react-refresh/only-export-components */
 /* eslint-disable react/prop-types */
-import { createContext, useContext, useEffect, useState } from "react";
-import { languages } from "../utils/portfolioData";
+/* eslint-disable react-refresh/only-export-components */
+import { createContext, useContext, useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const LanguageContext = createContext();
 
 function LanguageProvider({ children }) {
-  const languageCodes = languages.map((l) => l.title);
+  const { i18n } = useTranslation();
+  const [language, setLanguage] = useState(
+    localStorage.getItem("lang") || "en-GB"
+  );
 
-  const getInitialLanguage = () => {
-    const storedLanguage = localStorage.getItem("lang");
-    if (storedLanguage && languageCodes.includes(storedLanguage)) {
-      return storedLanguage;
-    }
-
-    const browserLanguage = navigator.language;
-    if (languageCodes.includes(browserLanguage)) {
-      localStorage.setItem("lang", browserLanguage);
-      return browserLanguage;
-    }
-
-    localStorage.setItem("lang", languages[0].title); // Default to English
-    return languages[0].title;
+  const changeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
+    setLanguage(lang); // Update state to trigger re-render
   };
-
-  const [language, setLanguage] = useState(getInitialLanguage);
 
   useEffect(() => {
-    localStorage.setItem("lang", language);
-  }, [language]);
+    const handleLanguageChange = () => {
+      setLanguage(i18n.language); // Force update when language changes
+    };
 
-  const toggleLanguage = (lang) => {
-    if (languageCodes.includes(lang)) {
-      localStorage.setItem("lang", lang);
-      setLanguage(lang);
-    }
-  };
+    i18n.on("languageChanged", handleLanguageChange);
+    return () => {
+      i18n.off("languageChanged", handleLanguageChange);
+    };
+  }, [i18n]);
 
   return (
-    <LanguageContext.Provider value={{ language, toggleLanguage }}>
+    <LanguageContext.Provider value={{ language, changeLanguage }}>
       {children}
     </LanguageContext.Provider>
   );
 }
-const useLanguage = () => {
-  const context = useContext(LanguageContext);
-  if (!context)
-    throw new Error("useLanguage must be used within a LanguageProvider");
-  return context;
-};
+
+const useLanguage = () => useContext(LanguageContext);
 
 export { LanguageProvider, useLanguage };

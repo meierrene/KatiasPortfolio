@@ -1,10 +1,16 @@
+import { useTranslation } from "react-i18next";
 import "./Testimonials.css";
-import { testimonialsData } from "../../utils/portfolioData";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
+
+  const testimonialsData = t("testimonials.testimonials", {
+    returnObjects: true,
+  });
+
   return (
     <section className="testimonials" id="testimonials">
-      <h2 className="h2-title">What Our Patients Say</h2>
+      <h2 className="h2-title">{t("testimonials.title")}</h2>
       <div className="grid-testimonials">
         {testimonialsData.map((testimonial, i) => (
           <div key={i} className="card">

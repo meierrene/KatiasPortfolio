@@ -1,10 +1,13 @@
 import "./AboutMe.css";
-import { aboutMeData } from "../../utils/portfolioData";
+import { useTranslation } from "react-i18next";
 
 function AboutMe() {
+  const { t } = useTranslation();
+  const aboutMeData = t("aboutMe.aboutMe", { returnObjects: true });
+
   return (
     <section className="about-me" id="about">
-      <h2 className="h2-title">About Me</h2>
+      <h2 className="h2-title">{t("aboutMe.title")}</h2>
       <div className="grid-about-me">
         {aboutMeData.map((item, i) => (
           <div

@@ -1,10 +1,13 @@
 import { useRef } from "react";
 import { ctaEmailData } from "../../utils/portfolioData";
 import "./CTA.css";
+import { useTranslation } from "react-i18next";
 
 function CTA() {
   const title = useRef();
   const content = useRef();
+
+  const { t } = useTranslation();
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -24,30 +27,27 @@ function CTA() {
   return (
     <section className="cta" id="contact">
       <div className="content">
-        <h2 className="h2-title">Ready to transform your smile?</h2>
-        <p className="description">
-          Contact Dr. Kátia Diniz Meier today to schedule an appointment or
-          learn more about her services.
-        </p>
+        <h2 className="h2-title">{t("cta.title")}</h2>
+        <p className="description">{t("cta.description")}</p>
         <form className="cta-form" onSubmit={submitHandler}>
           <input
             required
             className="cta-box subject"
             type="text"
-            placeholder="Subject"
+            placeholder={t("cta.subjectPlaceholder")}
             ref={title}
           />
           <textarea
             required
             className="cta-box content"
             rows="5"
-            placeholder="Write your message here..."
+            placeholder={t("cta.textPlaceholder")}
             ref={content}
           />
 
           <div className="button-nav">
             <button className="primaryButton" type="submit">
-              Contact Me
+              {t("cta.buttonContact")}
             </button>
           </div>
         </form>

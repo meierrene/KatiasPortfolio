@@ -1,0 +1,57 @@
+{
+  "header": [
+    { "title": "Sobre mim", "ref": "about" },
+    { "title": "Depoimentos", "ref": "testimonials" },
+    { "title": "Contato", "ref": "contact" }
+  ],
+  "hero": {
+    "title-part1": "Bem-vindo ao",
+    "title-part2": ", meu site pessoal",
+    "description": "Transformando sorrisos com excelência em Endodontia."
+  },
+  "aboutMe": {
+    "title": "Sobre Mim",
+    "aboutMe": [
+      {
+        "title": "Paixão pela Precisão em Endodontia",
+        "description": "Com mais de duas décadas dedicadas à odontologia, sou especialista em Endodontia, combinando técnicas avançadas com uma abordagem focada no paciente. Graduei-me na PUC Campinas em 2001, aprimorando minha expertise com especialização em Endodontia na São Leopoldo Mandic (2007). Atualmente, estou cursando o Mestrado em Endodontia (2024-2026) na mesma instituição, reforçando meu compromisso com o aprendizado contínuo e os avanços na odontologia.",
+        "image": "./img/hero.jpg"
+      },
+      {
+        "title": "Técnicas Avançadas & Atendimento Personalizado",
+        "description": "No meu consultório, integro tecnologias como ultrassom, microscopia operatória e localizadores foraminais, garantindo precisão incomparável nos tratamentos de canal. Seja utilizando técnicas manuais, rotatórias ou recíprocas, adapto cada procedimento às necessidades individuais, sempre priorizando o conforto e a saúde bucal a longo prazo. Acredito em um atendimento humanizado, onde a confiança e a empatia são a base de cada tratamento.",
+        "image": "./img/hero.jpg"
+      },
+      {
+        "title": "Natureza, Equilíbrio & Exploração Contínua",
+        "description": "Além da vida profissional, encontro inspiração na natureza e no bem-estar. Seja caminhando por paisagens tranquilas, lendo um bom livro ou praticando atividades de relaxamento, valorizo momentos que trazem equilíbrio à rotina. Viajar com meu marido é uma das minhas maiores paixões, pois me permite conhecer novas culturas e apreciar a beleza do mundo.",
+        "image": "./img/nature.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "O que Nossos Pacientes Dizem",
+    "testimonials": [
+      {
+        "name": "João Silva",
+        "message": "A Dra. Kátia me atendeu com muita excelência! Estou muito feliz com os resultados e recomendaria para qualquer pessoa."
+      },
+      {
+        "name": "Maria Santos",
+        "message": "Sempre tive receio de visitas ao dentista, mas a Dra. Kátia tornou todo o processo muito confortável e tranquilo."
+      },
+      {
+        "name": "Carlos Pereira",
+        "message": "O melhor tratamento endodôntico que já tive! Muito obrigado pela sua dedicação e profissionalismo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para transformar seu sorriso?",
+    "description": "Entre em contato com a Dra. Kátia hoje mesmo para agendar uma consulta ou saber mais sobre seus serviços.",
+    "buttonContact": "Entre em contato",
+    "subjectPlaceholder": "Assunto",
+    "textPlaceholder": "Escreva sua mensagem aqui..."
+  },
+  "footer": "Direitos autorais © {{year}} por René Meier"
+}

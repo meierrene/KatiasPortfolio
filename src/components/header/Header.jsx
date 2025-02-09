@@ -1,11 +1,14 @@
 import "./Header.css";
-import { languages, sections } from "../../utils/portfolioData";
+import { languages } from "../../utils/portfolioData";
 import { useLanguage } from "../../contexts/LanguageContext";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const { language, toggleLanguage } = useLanguage();
+  const { language, changeLanguage } = useLanguage();
+  const { t } = useTranslation();
 
   const selectedLanguage = languages.find((l) => l.title === language);
+  const sections = t("header", { returnObjects: true });
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark nav-container">
@@ -51,7 +54,7 @@ const Header = () => {
                 <li key={l.title}>
                   <button
                     className="dropdown-item"
-                    onClick={() => toggleLanguage(l.title)}
+                    onClick={() => changeLanguage(l.title)}
                   >
                     <img src={l.flag} alt={l.title} />
                   </button>
