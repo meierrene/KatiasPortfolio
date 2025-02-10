@@ -1,6 +1,6 @@
 {
   "header": [
-    { "title": "About me", "ref": "about" },
+    { "title": "Background", "ref": "about" },
     { "title": "Testimonials", "ref": "testimonials" },
     { "title": "Contact", "ref": "contact" }
   ],
@@ -9,7 +9,7 @@
     "description": "Transforming smiles. Excellence in Endodontics."
   },
   "aboutMe": {
-    "title": "My background",
+    "title": "Background",
     "aboutMe": [
       {
         "title": "Passion for Precision in Endodontics",

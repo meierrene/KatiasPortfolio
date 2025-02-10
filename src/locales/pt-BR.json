@@ -1,6 +1,6 @@
 {
   "header": [
-    { "title": "Sobre mim", "ref": "about" },
+    { "title": "Trajetória", "ref": "about" },
     { "title": "Depoimentos", "ref": "testimonials" },
     { "title": "Contato", "ref": "contact" }
   ],
@@ -9,7 +9,7 @@
     "description": "Transformando sorrisos. Excelência em Endodontia."
   },
   "aboutMe": {
-    "title": "Minha trajetória",
+    "title": "Trajetória",
     "aboutMe": [
       {
         "title": "Paixão pela Precisão em Endodontia",

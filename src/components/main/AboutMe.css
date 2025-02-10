@@ -24,6 +24,10 @@
   text-align: justify;
 }
 
+.text h3 {
+  text-align: center;
+}
+
 .image-about-me {
   flex: 1;
   display: flex;

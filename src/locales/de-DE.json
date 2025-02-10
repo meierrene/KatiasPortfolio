@@ -1,6 +1,6 @@
 {
   "header": [
-    { "title": "Über mich", "ref": "about" },
+    { "title": "Werdegang", "ref": "about" },
     { "title": "Erfahrungsberichte", "ref": "testimonials" },
     { "title": "Kontakt", "ref": "contact" }
   ],
@@ -9,7 +9,7 @@
     "description": "Lächeln verwandeln. Exzellenz in der Endodontie."
   },
   "aboutMe": {
-    "title": "Mein Werdegang",
+    "title": "Werdegang",
     "aboutMe": [
       {
         "title": "Leidenschaft für Präzision in der Endodontie",
