@@ -16,8 +16,6 @@ function CTA() {
     const body = encodeURIComponent(
       content.current.value.replace(/\n/g, "%0D%0A")
     );
-    //mailto:contato@katiadiniz.com.br?subject=Test&body=Another%20test!%0D%0ATest!
-
     window.open(`mailto:${ctaEmailData}?subject=${subject}&body=${body}`);
 
     title.current.value = "";
