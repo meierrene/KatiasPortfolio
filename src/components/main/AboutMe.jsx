@@ -24,6 +24,23 @@ function AboutMe() {
           </div>
         ))}
       </div>
+      <h3 className="h3-title icons-heading">{t("aboutMe.icons-title")}</h3>
+      <div className="icons-container">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/katiameier/"
+        >
+          <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.instagram.com/katia.endodontics.it/"
+        >
+          <ion-icon class="icons" name="logo-instagram"></ion-icon>
+        </a>
+      </div>
     </section>
   );
 }
