@@ -13,12 +13,12 @@
     "aboutMe": [
       {
         "title": "Paixão pela Precisão em Endodontia",
-        "description": "Com mais de duas décadas dedicadas à odontologia, sou especialista em Endodontia, combinando técnicas avançadas com uma abordagem centrada no paciente. Graduei-me na PUC Campinas em 2002, aprimorando minha expertise com especialização em Endodontia na São Leopoldo Mandic (2007). Atualmente, estou cursando o Mestrado em Endodontia (2024-2026) na mesma instituição. Meu foco é oferecer tratamentos precisos e sem dor, garantindo que meus pacientes recebam o mais alto nível de cuidado.",
+        "description": "Com mais de duas décadas dedicadas à odontologia, sou especialista em Endodontia, combinando técnicas avançadas com uma abordagem centrada no paciente. Graduada pela PUC Campinas em 2002, aprimorando minha expertise com especialização em Endodontia na São Leopoldo Mandic (2007). Atualmente, estou cursando o Mestrado em Endodontia (2024-2026) na mesma instituição. Meu foco é oferecer tratamentos precisos, garantindo que meus pacientes recebam o mais alto nível de cuidado.",
         "image": "./img/desk.jpg"
       },
       {
         "title": "Técnicas Avançadas & Atendimento Personalizado",
-        "description": "No meu consultório, integro tecnologias como ultrassom, microscopia operatória e localizadores foraminais, garantindo precisão incomparável nos tratamentos de canal. Seja utilizando técnicas manuais, rotatórias ou recíprocas, adapto os procedimentos para cada paciente, sempre priorizando o conforto e a saúde bucal a longo prazo. Acredito em um atendimento humanizado, onde confiança, honestidade e empatia são a base de cada tratamento.",
+        "description": "No meu consultório, integro tecnologias como ultrassom, microscopia operatória e localizadores foraminais, garantindo precisão incomparável nos tratamentos de canal. Seja utilizando técnicas manuais, rotatórias ou recíprocantes, adapto os procedimentos para cada paciente, sempre priorizando o conforto e a saúde bucal a longo prazo. Acredito em um atendimento humanizado, onde confiança, honestidade e empatia são a base de cada tratamento.",
         "image": "./img/hero.jpg"
       },
       {
@@ -27,7 +27,7 @@
         "image": "./img/nature.jpg"
       }
     ],
-    "icons-title": "Onde me encontrar?"
+    "icons-title": "Onde encontrar?"
   },
   "testimonials": {
     "title": "O que nossos pacientes dizem?",
