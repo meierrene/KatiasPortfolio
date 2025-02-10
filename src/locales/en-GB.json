@@ -5,21 +5,20 @@
     { "title": "Contact", "ref": "contact" }
   ],
   "hero": {
-    "title-part1": "Welcome to",
-    "title-part2": " personal website",
-    "description": "Transforming smiles with excellence in Endodontics."
+    "title": "Welcome to my website",
+    "description": "Transforming smiles. Excellence in Endodontics."
   },
   "aboutMe": {
-    "title": "About Me",
+    "title": "My background",
     "aboutMe": [
       {
         "title": "Passion for Precision in Endodontics",
-        "description": "With over two decades dedicated to dentistry, I specialize in Endodontics, combining advanced techniques with a patient-first approach. I graduated from PUC Campinas in 2001, later enhancing my expertise with specialization in Endodontics at São Leopoldo Mandic (2007), and I am currently pursuing a Master’s degree in Endodontics (2024-2026) at the same institution. My focus is on delivering precise and pain-free treatments, ensuring my patients receive the highest level of care.",
+        "description": "With over two decades dedicated to dentistry, I specialize in Endodontics, combining advanced techniques with a patient-first approach. I graduated from PUC Campinas in 2002, later enhancing my expertise with specialization in Endodontics at São Leopoldo Mandic (2007), and I am currently pursuing a Master's degree in Endodontics (2024-2026) at the same institution. My focus is on delivering precise and pain-free treatments, ensuring my patients receive the highest level of care.",
         "image": "./img/desk.jpg"
       },
       {
         "title": "Advanced Techniques & Personalized Care",
-        "description": "In my practice, I integrate ultrasound technology, operating microscopy, and foraminal locators, which allow for unparalleled accuracy in root canal treatments. Whether using manual, rotary, or reciprocating techniques, I tailor procedures to each case, always prioritizing patient comfort and long-term oral health. I believe in a humanized approach to dentistry, where trust and empathy are at the core of every treatment.",
+        "description": "In my practice, I integrate ultrasound technology, operating microscopy, and foraminal locators, which allow for unparalleled accuracy in root canal treatments. Whether using manual, rotary, or reciprocating techniques, I tailor procedures to each patient's case, always prioritizing patient comfort and long-term oral health. I believe in a humanized approach to dentistry, where trust, honesty and empathy are at the core of every treatment.",
         "image": "./img/hero.jpg"
       },
       {
@@ -31,7 +30,7 @@
     "icons-title": "Where to find me?"
   },
   "testimonials": {
-    "title": "What Our Patients Say",
+    "title": "What our patients say?",
     "testimonials": [
       {
         "name": "Geraldo Tuvani",
@@ -50,7 +49,7 @@
   "cta": {
     "title": "Ready to transform your smile?",
     "description": "Contact Dr. Kátia today to schedule an appointment or learn more about her services.",
-    "buttonContact": "Contact Me",
+    "buttonContact": "Send message",
     "subjectPlaceholder": "Subject",
     "textPlaceholder": "Write your message here..."
   },
