@@ -5,7 +5,7 @@ export const sections = [
 ];
 
 export const languages = [
-  { title: "en-GB", flag: "united-kingdom-flag.svg" },
+  { title: "en-GB", flag: "uk-flag.svg" },
   { title: "de-DE", flag: "germany-flag.svg" },
   { title: "pt-BR", flag: "brazil-flag.svg" },
 ];
